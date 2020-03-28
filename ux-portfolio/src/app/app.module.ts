@@ -7,6 +7,7 @@ import { NavbarComponent } from './universalComponents/navbar/navbar.component';
 import { FooterComponent } from './universalComponents/footer/footer.component';
 import { InfoComponent } from './universalComponents/info/info.component';
 import { HomeDetailsComponent } from './homePageComponents/home-details/home-details.component';
+import { SkillsComponent } from './homePageComponents/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeDetailsComponent } from './homePageComponents/home-details/home-det
     NavbarComponent,
     FooterComponent,
     InfoComponent,
-    HomeDetailsComponent
+    HomeDetailsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
