@@ -9,6 +9,7 @@ import { InfoComponent } from './universalComponents/info/info.component';
 import { HomeDetailsComponent } from './homePageComponents/home-details/home-details.component';
 import { SkillsComponent } from './homePageComponents/skills/skills.component';
 import { ProcessComponent } from './homePageComponents/process/process.component';
+import { MethodologiesComponent } from './homePageComponents/methodologies/methodologies.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProcessComponent } from './homePageComponents/process/process.component
     InfoComponent,
     HomeDetailsComponent,
     SkillsComponent,
-    ProcessComponent
+    ProcessComponent,
+    MethodologiesComponent
   ],
   imports: [
     BrowserModule,
