@@ -10,6 +10,7 @@ import { HomeDetailsComponent } from './homePageComponents/home-details/home-det
 import { SkillsComponent } from './homePageComponents/skills/skills.component';
 import { ProcessComponent } from './homePageComponents/process/process.component';
 import { MethodologiesComponent } from './homePageComponents/methodologies/methodologies.component';
+import { ToolsComponent } from './homePageComponents/tools/tools.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MethodologiesComponent } from './homePageComponents/methodologies/metho
     HomeDetailsComponent,
     SkillsComponent,
     ProcessComponent,
-    MethodologiesComponent
+    MethodologiesComponent,
+    ToolsComponent
   ],
   imports: [
     BrowserModule,
