@@ -8,6 +8,7 @@ import { FooterComponent } from './universalComponents/footer/footer.component';
 import { InfoComponent } from './universalComponents/info/info.component';
 import { HomeDetailsComponent } from './homePageComponents/home-details/home-details.component';
 import { SkillsComponent } from './homePageComponents/skills/skills.component';
+import { ProcessComponent } from './homePageComponents/process/process.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SkillsComponent } from './homePageComponents/skills/skills.component';
     FooterComponent,
     InfoComponent,
     HomeDetailsComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProcessComponent
   ],
   imports: [
     BrowserModule,
