@@ -11,6 +11,7 @@ import { SkillsComponent } from './homePageComponents/skills/skills.component';
 import { ProcessComponent } from './homePageComponents/process/process.component';
 import { MethodologiesComponent } from './homePageComponents/methodologies/methodologies.component';
 import { ToolsComponent } from './homePageComponents/tools/tools.component';
+import { PortfolioComponent } from './homePageComponents/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ToolsComponent } from './homePageComponents/tools/tools.component';
     SkillsComponent,
     ProcessComponent,
     MethodologiesComponent,
-    ToolsComponent
+    ToolsComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
