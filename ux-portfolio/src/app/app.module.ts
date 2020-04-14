@@ -7,6 +7,8 @@ import { NavbarComponent } from './universalComponents/navbar/navbar.component';
 import { FooterComponent } from './universalComponents/footer/footer.component';
 import { InfoComponent } from './universalComponents/info/info.component';
 import { HomeDetailsComponent } from './homePageComponents/home-details/home-details.component';
+import { SkillsModule } from './homePageComponents/skills/skills.module';
+import { ProcessModule } from './homePageComponents/process/process.module'
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HomeDetailsComponent } from './homePageComponents/home-details/home-det
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SkillsModule,
+    ProcessModule
   ],
   providers: [],
   bootstrap: [AppComponent]
