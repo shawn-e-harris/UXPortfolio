@@ -9,6 +9,9 @@ import { InfoComponent } from './universalComponents/info/info.component';
 import { HomeDetailsComponent } from './homePageComponents/home-details/home-details.component';
 import { SkillsModule } from './homePageComponents/skills/skills.module';
 import { ProcessModule } from './homePageComponents/process/process.module'
+import { MethodologiesModule } from './homePageComponents/methodologies/methodologies.module'
+// import { ToolsModule } from './homePageComponents/tools/tools.module'
+import { PortfolioModule } from './homePageComponents/portfolio/portfolio.module'
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ProcessModule } from './homePageComponents/process/process.module'
     BrowserModule,
     AppRoutingModule,
     SkillsModule,
-    ProcessModule
+    ProcessModule,
+    MethodologiesModule,
+    // ToolsModule,
+    PortfolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
