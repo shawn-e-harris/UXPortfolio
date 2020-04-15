@@ -10,7 +10,7 @@ import { HomeDetailsComponent } from './homePageComponents/home-details/home-det
 import { SkillsModule } from './homePageComponents/skills/skills.module';
 import { ProcessModule } from './homePageComponents/process/process.module'
 import { MethodologiesModule } from './homePageComponents/methodologies/methodologies.module'
-// import { ToolsModule } from './homePageComponents/tools/tools.module'
+import { ToolsModule } from './homePageComponents/tools/tools.module'
 import { PortfolioModule } from './homePageComponents/portfolio/portfolio.module'
 
 @NgModule({
@@ -27,7 +27,7 @@ import { PortfolioModule } from './homePageComponents/portfolio/portfolio.module
     SkillsModule,
     ProcessModule,
     MethodologiesModule,
-    // ToolsModule,
+    ToolsModule,
     PortfolioModule
   ],
   providers: [],
