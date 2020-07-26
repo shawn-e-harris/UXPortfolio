@@ -11,7 +11,11 @@ import { SkillsModule } from './homePageComponents/skills/skills.module';
 import { ProcessModule } from './homePageComponents/process/process.module'
 import { MethodologiesModule } from './homePageComponents/methodologies/methodologies.module'
 import { ToolsModule } from './homePageComponents/tools/tools.module'
-import { PortfolioModule } from './homePageComponents/portfolio/portfolio.module'
+import { PortfolioModule } from './homePageComponents/portfolio/portfolio.module';
+import { ReimagineComponent } from './portfolioProjects/reimagine/reimagine/reimagine.component';
+import { SprintComponent } from './portfolioProjects/sprint/sprint/sprint.component';
+import { TacticalComponent } from './portfolioProjects/tactical/tactical/tactical.component';
+import { UploadComponent } from './portfolioProjects/upload/upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,10 @@ import { PortfolioModule } from './homePageComponents/portfolio/portfolio.module
     FooterComponent,
     InfoComponent,
     HomeDetailsComponent,
+    ReimagineComponent,
+    SprintComponent,
+    TacticalComponent,
+    UploadComponent,
   ],
   imports: [
     BrowserModule,
