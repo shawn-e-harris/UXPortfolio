@@ -12,16 +12,17 @@
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeDetailsComponent } from './homePageComponents/home-details/home-details.component'
+import { ReimagineComponent } from './portfolioProjects/reimagine/reimagine/reimagine.component'
 
 const routes: Routes = [
     {
         path: '',
         component: HomeDetailsComponent,
     },
-    // {
-    //     path: 'jkRowling',
-    //     component: JkRowlingComponent,
-    // },
+    {
+        path: 'reimagine',
+        component: ReimagineComponent,
+    },
     // {
     //     path: 'books',
     //     component: BooksComponent

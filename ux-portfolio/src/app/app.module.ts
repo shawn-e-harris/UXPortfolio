@@ -36,7 +36,7 @@ import { UploadComponent } from './portfolioProjects/upload/upload/upload.compon
     ProcessModule,
     MethodologiesModule,
     ToolsModule,
-    PortfolioModule
+    PortfolioModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
